@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Laraxot\PanelModules\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PanelModulesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'panel-modules';
 
     public $description = 'My command';
 
