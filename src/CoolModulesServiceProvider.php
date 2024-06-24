@@ -22,13 +22,12 @@ class CoolModulesServiceProvider extends PackageServiceProvider
          */
 
         $package
-            ->name('cool-modules')
-            // ->hasConfigFile('modules')
-            // ->hasViews()
-            //->hasCommands([
-                // ModuleMakePanelCommand::class,
-            //])
-        ;
+            ->name('cool-modules');
+        // ->hasConfigFile('modules')
+        // ->hasViews()
+        //->hasCommands([
+        // ModuleMakePanelCommand::class,
+        //])
     }
 
     public function register()
