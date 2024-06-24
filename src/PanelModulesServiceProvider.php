@@ -2,13 +2,13 @@
 
 namespace Laraxot\PanelModules;
 
-use Laraxot\PanelModules\Commands\PanelModulesCommand;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Filament\Facades\Filament;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
+use Laraxot\PanelModules\Commands\PanelModulesCommand;
 use Nwidart\Modules\LaravelModulesServiceProvider;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class PanelModulesServiceProvider extends PackageServiceProvider
 {
@@ -20,12 +20,11 @@ class PanelModulesServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('panel-modules')
-            //->hasConfigFile()
-            //->hasViews()
-            //->hasMigration('create_panel-modules_table')
-            //->hasCommand(PanelModulesCommand::class)
-        ;
+            ->name('panel-modules');
+        //->hasConfigFile()
+        //->hasViews()
+        //->hasMigration('create_panel-modules_table')
+        //->hasCommand(PanelModulesCommand::class)
     }
 
     public function register()
