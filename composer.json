@@ -4,7 +4,10 @@
     "keywords": [
         "Marco Sottana",
         "laravel",
-        "panel-modules"
+        "panel-modules",
+        "Filament",
+        "Nwidart",
+        "modules"
     ],
     "homepage": "https://github.com/laraxot/panel-modules",
     "license": "MIT",
@@ -18,7 +21,9 @@
     "require": {
         "php": "^8.2",
         "spatie/laravel-package-tools": "^1.16",
-        "illuminate/contracts": "^10.0||^11.0"
+        "illuminate/contracts": "^10.0||^11.0",
+        "filament/filament": "^3.2",
+        "nwidart/laravel-modules": "^10.0|^11.0"
     },
     "require-dev": {
         "laravel/pint": "^1.14",
