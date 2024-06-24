@@ -2,6 +2,4 @@
 
 namespace Laraxot\PanelModules;
 
-class PanelModules
-{
-}
+class PanelModules {}

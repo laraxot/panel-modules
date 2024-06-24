@@ -2,9 +2,9 @@
 
 namespace Laraxot\PanelModules;
 
+use Laraxot\PanelModules\Commands\PanelModulesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Laraxot\PanelModules\Commands\PanelModulesCommand;
 
 class PanelModulesServiceProvider extends PackageServiceProvider
 {
